@@ -1,11 +1,12 @@
+/* eslint-disable no-unused-vars */
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset-advanced';
 import { darken, lighten } from 'polished';
 
-const mainBrandColor = '#00D1B2';
-const lightShades = '#F5F5F5';
-const darkAccent = '#3173DC';
-const darkShades = '#0A0A0A';
+const mainBrandColor = '#ffffff';
+const lightShades = '#5784ed';
+const darkAccent = '#777777';
+const darkShades = '#000000';
 
 export const theme = {
   // It can be liberally applied to your layout as its main identity.
@@ -38,7 +39,7 @@ export const theme = {
   textColorInverse: lightShades,
   textColorLite: '#8B8989',
   menuTintColor: darkAccent,
-  primaryFontFamily: "'Open Sans', sans-serif",
+  primaryFontFamily: "'Poppins', sans-serif",
   secondaryFontFamily: "'Open Sans', sans-serif",
   boxShadow: 'rgba(0,0,0,0.08) 0px 7px 18px',
 };
@@ -47,13 +48,14 @@ const GlobalStyle = createGlobalStyle`
   ${reset};
 
   body {
-    font-family: ${theme.secondaryFontFamily};
+    font-family: ${theme.primaryFontFamily};
     color: ${theme.textColor};
     letter-spacing: 0.03rem !important;
     font-size: 17px;
   }
   .title {
     font-family: ${theme.primaryFontFamily};
+
   }
   .button {
     font-family: ${theme.primaryFontFamily};
@@ -65,22 +67,39 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.textColor} !important;
   }
   .subtitle {
-    color: ${lighten(0.06, theme.textColor)} !important;
+    color: ${theme.darkAccent} !important;
+    font-size: 14px;
+    line-height: 1.625em;
   }
   .button.is-primary {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+
+
     background-color: ${theme.mainBrandColor};
     transition: background-color 0.2s ease;
+    color: #000000;
     :hover {
-      background-color: ${darken(0.06, theme.mainBrandColor)};
+      background-color: transparent;
+      border: 1px solid white !important;
     }
   }
-  .button.is-secondary {
-    background-color: ${theme.lightAccent};
-    transition: background-color 0.2s ease;
-    color: #ffffff;
-    :hover {
-      background-color: ${darken(0.06, theme.lightAccent)};
+  .button.is-secondary { text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+
+
+background-color: #222222;
+transition: background-color 0.2s ease;
+color: #ffffff;
+:hover {
+background-color: transparent;
+color: #000000
+border: 1px solid black !important;
+    
     }
+    
   }
   .button.is-link {
     background-color: ${theme.darkAccent};
