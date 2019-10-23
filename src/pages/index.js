@@ -23,7 +23,7 @@ const Wrapper = styled.div`
     font-weight: 700;
   }
   .control {
-    margin-bottom: 18rem;
+    margin-bottom: 19rem;
   }
   h1 {
     color: ${props => props.theme.mainBrandColor} !important;
