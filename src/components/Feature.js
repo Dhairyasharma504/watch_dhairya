@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 `;
 const Feature = () => (
   <Wrapper>
-    <div className="main">ss</div>
+    <div className="main">sss</div>
   </Wrapper>
 );
 export default Feature;

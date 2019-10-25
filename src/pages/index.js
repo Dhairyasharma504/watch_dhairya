@@ -31,6 +31,9 @@ const Wrapper = styled.div`
   h5 {
     color: ${props => props.theme.lightShades} !important;
   }
+  .control {
+    text-align: center;
+  }
 `;
 
 export default class IndexPage extends React.Component {
