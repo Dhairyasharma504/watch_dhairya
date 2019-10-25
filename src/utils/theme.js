@@ -75,6 +75,7 @@ const GlobalStyle = createGlobalStyle`
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
+    box-shadow: 1px 1px 14px 1px blanchedalmond;
 
 
     background-color: ${theme.mainBrandColor};

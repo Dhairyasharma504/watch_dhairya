@@ -33,6 +33,7 @@ const Wrapper = styled.div`
   }
   .control {
     text-align: center;
+    m
   }
 `;
 
@@ -47,24 +48,22 @@ export default class IndexPage extends React.Component {
 
             <section className="hero">
               <div className="hero-body">
-                <div className="container">
-                  <h1 className="subtitle has-text-centered is-size-6 is-spaced">
-                    NOW YOU CAN FEEL THE HEAT
-                  </h1>
-                  <h1 className="title has-text-centered is-size-1-mobile">
-                    Smart New Future
-                  </h1>
+                <h1 className="subtitle has-text-centered is-size-6 is-spaced">
+                  NOW YOU CAN FEEL THE HEAT
+                </h1>
+                <h1 className="title has-text-centered is-size-1-mobile">
+                  Smart New Future
+                </h1>
 
-                  <p className="control">
-                    <a href="#">
-                      <button
-                        type="submit"
-                        className="button is-primary is-normal is-info is-rounded has-text-weight-semibold ">
-                        BUY NOW
-                      </button>
-                    </a>
-                  </p>
-                </div>
+                <p className="control">
+                  <a href="#">
+                    <button
+                      type="submit"
+                      className="button is-primary is-normal is-info is-rounded ">
+                      BUY NOW
+                    </button>
+                  </a>
+                </p>
               </div>
             </section>
           </div>
