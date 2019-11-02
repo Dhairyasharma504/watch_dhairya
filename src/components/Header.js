@@ -21,6 +21,7 @@ const Section = styled.section`
       position: absolute;
       width: 100%;
       transition: 0.6s;
+      background-color: #14151499;
     }
   }
   .navbar-item {
