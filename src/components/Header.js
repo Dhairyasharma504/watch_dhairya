@@ -39,8 +39,12 @@ const Section = styled.section`
   }
   .navbar-burger {
     color: #fff;
-
+    font-size: 24px;
     border-radius: 4px;
+  }
+  .dtt {
+    height: 3px;
+    width: 20px;
   }
 `;
 
@@ -90,9 +94,9 @@ export default class Header extends React.Component {
                 aria-expanded="false"
                 data-target="navbarBasicExample"
                 onClick={() => this.handleMobileMenu()}>
-                <span aria-hidden="true" />
-                <span aria-hidden="true" />
-                <span aria-hidden="true" />
+                <span aria-hidden="true  " className="dtt" />
+                <span aria-hidden="true" className="dtt" />
+                <span aria-hidden="true " className="dtt" />
               </a>
             </div>
             <div className={isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
