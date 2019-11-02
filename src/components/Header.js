@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 const Section = styled.section`
-  padding: 2rem 2.5rem;
+  padding: 1rem 1.5rem;
   font-family: ${props => props.theme.primaryFontFamily};
   .navbar {
     background-color: transparent;
