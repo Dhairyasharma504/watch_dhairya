@@ -52,6 +52,8 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.textColor};
     letter-spacing: 0.03rem !important;
     font-size: 17px;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
   }
   .title {
     font-family: ${theme.primaryFontFamily};
