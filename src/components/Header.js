@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 const Section = styled.section`
-  padding: 1rem 1.5rem;
+  padding: 2rem 2.5rem;
   font-family: ${props => props.theme.primaryFontFamily};
   .navbar {
     background-color: transparent;
@@ -24,8 +24,14 @@ const Section = styled.section`
     }
   }
   .navbar-item {
-    font-weight: 700;
-    font-size: 1.2rem;
+    padding: 0 8px 0;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
     :hover {
       color: ${props => props.theme.darkAccent};
     }
@@ -98,10 +104,19 @@ export default class Header extends React.Component {
                   About
                 </Link>
                 <Link to="/news" className="navbar-item">
-                  News
+                  SERVICE
                 </Link>
                 <Link to="/contact" className="navbar-item">
                   Contact
+                </Link>
+                <Link to="/news" className="navbar-item">
+                  UNIQUE FEATURES
+                </Link>
+                <Link to="/news" className="navbar-item">
+                  REVIEW
+                </Link>
+                <Link to="/news" className="navbar-item">
+                  FAQ
                 </Link>
               </div>
             </div>

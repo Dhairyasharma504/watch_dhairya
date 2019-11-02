@@ -33,7 +33,9 @@ const Wrapper = styled.div`
   }
   .control {
     text-align: center;
-    m
+  }
+  .hero {
+    margin-top: -3rem;
   }
 `;
 
