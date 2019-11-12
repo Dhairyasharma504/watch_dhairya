@@ -9,6 +9,7 @@ import Vedio from '../components/Vedio';
 import Courses from '../components/Courses';
 import Globally from '../components/Globally';
 import Feature from '../components/Feature';
+import Images from '../components/Images';
 
 const Wrapper = styled.div`
   .main {
@@ -74,6 +75,7 @@ export default class IndexPage extends React.Component {
         <Courses />
         <Globally />
         <Feature />
+        <Images />
       </Layout>
     );
   }

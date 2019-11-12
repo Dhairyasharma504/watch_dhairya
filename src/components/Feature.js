@@ -18,7 +18,7 @@ const Wrapper = styled.div`
     padding: 32px;
   }
   .icon {
-    color: blueviolet;
+    color: royalblue;
     margin-right: 3px;
   }
 `;
@@ -28,7 +28,7 @@ const Feature = () => (
       <body>
         <section className="section">
           <div className="container">
-            <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered is-size-1-mobile ">
+            <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered  ">
               Some Features that Made us Unique
             </h3>
             <p className="subtitle has-text-weight-light is-spaced  has-text-centered	">

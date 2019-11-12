@@ -13,6 +13,12 @@ const Wrapper = styled.div`
   p {
     color: ${props => props.theme.darkAccent} !important;
   }
+  .icon {
+    font-size: 31px;
+    margin-bottom: 15px;
+    color: #1b4ab7bf;
+    margin-left: 8px;
+  }
 `;
 const Courses = () => (
   <Wrapper>
@@ -32,6 +38,9 @@ const Courses = () => (
               <div className="column">
                 <section className="section">
                   <div className="container">
+                    <div className="icon">
+                      <i className="fas fa-rocket" />
+                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       High Performance
                     </h3>
@@ -44,6 +53,9 @@ const Courses = () => (
                 </section>
                 <section className="section">
                   <div className="container">
+                    <div className="icon">
+                      <i className="fas fa-cog" />
+                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       High Performance
                     </h3>
@@ -61,6 +73,9 @@ const Courses = () => (
               <div className="column">
                 <section className="section">
                   <div className="container">
+                    <div className="icon">
+                      <i className="far fa-building" />
+                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       High Performance
                     </h3>
@@ -73,6 +88,9 @@ const Courses = () => (
                 </section>
                 <section className="section">
                   <div className="container">
+                    <div className="icon">
+                      <i className="fas fa-phone-volume" />
+                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       High Performance
                     </h3>

@@ -1,9 +1,4 @@
 /* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable prettier/prettier */
-/* eslint-disable react/jsx-closing-tag-location */
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable jsx-a11y/iframe-has-title */
-/* eslint-disable react/jsx-indent */
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
