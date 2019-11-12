@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/aria-proptypes */
 /* eslint global-require: 0 */
 
 import React from 'react';
@@ -42,7 +43,7 @@ const Section = styled.section`
     font-size: 24px;
     border-radius: 4px;
   }
-  .dtt {
+  .menu {
     height: 3px;
     width: 20px;
   }
@@ -94,9 +95,9 @@ export default class Header extends React.Component {
                 aria-expanded="false"
                 data-target="navbarBasicExample"
                 onClick={() => this.handleMobileMenu()}>
-                <span aria-hidden="true  " className="dtt" />
-                <span aria-hidden="true" className="dtt" />
-                <span aria-hidden="true " className="dtt" />
+                <span aria-hidden="true  " className="menu" />
+                <span aria-hidden="true" className="menu" />
+                <span aria-hidden="true " className="menu" />
               </a>
             </div>
             <div className={isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
