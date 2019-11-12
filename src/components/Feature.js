@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding: 4rem;
   h2 {
     color: ${props => props.theme.lightShades} !important;
   }
