@@ -14,10 +14,9 @@ const Wrapper = styled.div`
     color: ${props => props.theme.darkAccent} !important;
   }
   .icon {
-    font-size: 31px;
-    margin-bottom: 15px;
-    color: #1b4ab7bf;
-    margin-left: 8px;
+    font-size: 22px;
+    margin-right: 10px;
+    color: #235ee7;
   }
 `;
 const Courses = () => (
@@ -38,10 +37,10 @@ const Courses = () => (
               <div className="column">
                 <section className="section">
                   <div className="container">
-                    <div className="icon">
-                      <i className="fas fa-rocket" />
-                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
+                      <div className="icon">
+                        <i className="fas fa-rocket" />
+                      </div>
                       High Performance
                     </h3>
                     <p className="subtitle is-spaced  has-text-left	">
@@ -53,10 +52,10 @@ const Courses = () => (
                 </section>
                 <section className="section">
                   <div className="container">
-                    <div className="icon">
-                      <i className="fas fa-cog" />
-                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
+                      <div className="icon">
+                        <i className="fas fa-cog" />
+                      </div>
                       High Performance
                     </h3>
                     <p className="subtitle is-spaced  has-text-left	">
@@ -73,10 +72,10 @@ const Courses = () => (
               <div className="column">
                 <section className="section">
                   <div className="container">
-                    <div className="icon">
-                      <i className="far fa-building" />
-                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
+                      <div className="icon">
+                        <i className="far fa-building" />
+                      </div>
                       High Performance
                     </h3>
                     <p className="subtitle is-spaced  has-text-left	">
@@ -88,10 +87,10 @@ const Courses = () => (
                 </section>
                 <section className="section">
                   <div className="container">
-                    <div className="icon">
-                      <i className="fas fa-phone-volume" />
-                    </div>
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
+                      <div className="icon">
+                        <i className="fas fa-phone-volume" />
+                      </div>
                       High Performance
                     </h3>
                     <p className="subtitle is-spaced  has-text-left	">

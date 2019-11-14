@@ -14,7 +14,7 @@ const Wrapper = styled.div`
     color: ${props => props.theme.darkAccent} !important;
   }
   .card-image {
-    padding: 40px;
+    padding: 56px;
   }
 `;
 const Images = () => (

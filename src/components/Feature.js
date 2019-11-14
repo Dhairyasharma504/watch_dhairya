@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
+  background-image: url(https://colorlib.com/preview/theme/coffee/img/menu-bg.jpg);
+  background-size: cover;
+  margin: -1rem;
   h2 {
     color: ${props => props.theme.lightShades} !important;
   }
@@ -12,10 +15,9 @@ const Wrapper = styled.div`
     color: ${props => props.theme.darkAccent} !important;
   }
   .card {
-    background-color: #f9f9ff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 8px -32px wheat;
-    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 2px 2px 13px 8px antiquewhite;
+    padding: 18px;
   }
   .icon {
     color: royalblue;
