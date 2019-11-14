@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background-image: url(https://colorlib.com/preview/theme/medcare/img/background/bg_1.png);
+  padding: 2rem;
 
   margin: -1rem;
   h2 {
