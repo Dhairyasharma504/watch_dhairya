@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  background-image: url(https://colorlib.com/preview/theme/coffee/img/menu-bg.jpg);
-  background-size: cover;
+  background-image: url(https://colorlib.com/preview/theme/medcare/img/background/bg_1.png);
+
   margin: -1rem;
   h2 {
     color: ${props => props.theme.lightShades} !important;

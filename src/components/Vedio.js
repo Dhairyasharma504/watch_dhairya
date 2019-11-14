@@ -24,11 +24,16 @@ const Wrapper = styled.div`
     background-size: cover;
     border-radius: 9px;
     box-shadow: 3px 6px 12px 1px beige;
-    height: 18rem;
+    height: 19rem;
+    margin-bottom: 4rem;
   }
   .play {
     text-align: center;
     padding: 7rem;
+  }
+  .sign {
+    text-align: center;
+    padding: 3rem;
   }
 `;
 const Vedio = () => (
@@ -70,6 +75,9 @@ const Vedio = () => (
                   <Link>
                     <img src="https://colorlib.com/preview/theme/watch/img/play-icon.png" />
                   </Link>
+                </div>
+                <div className="sign">
+                  <img src="https://colorlib.com/preview/theme/coffee/img/signature.png" />
                 </div>
               </div>
             </div>

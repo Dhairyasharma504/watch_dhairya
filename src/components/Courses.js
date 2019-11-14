@@ -3,7 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  background-color: #f9f9ff;
+  background-image: url(https://colorlib.com/preview/theme/medcare/img/background/bg_1.png);
+
   h2 {
     color: ${props => props.theme.lightShades} !important;
   }
