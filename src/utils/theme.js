@@ -90,6 +90,8 @@ const GlobalStyle = createGlobalStyle`
   .button.is-secondary { text-align: center;
     padding-left: 35px;
     padding-right: 35px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 
 
 background-color: #222222;

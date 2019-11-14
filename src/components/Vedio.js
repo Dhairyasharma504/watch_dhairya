@@ -25,15 +25,10 @@ const Wrapper = styled.div`
     border-radius: 9px;
     box-shadow: 3px 6px 12px 1px beige;
     height: 19rem;
-    margin-bottom: 4rem;
   }
   .play {
     text-align: center;
     padding: 7rem;
-  }
-  .sign {
-    text-align: center;
-    padding: 3rem;
   }
 `;
 const Vedio = () => (
@@ -67,6 +62,8 @@ const Vedio = () => (
                         GET STARTED
                       </button>
                     </a>
+
+                    <img src="https://colorlib.com/preview/theme/coffee/img/signature.png" />
                   </p>
                 </div>
               </div>
@@ -75,9 +72,6 @@ const Vedio = () => (
                   <Link>
                     <img src="https://colorlib.com/preview/theme/watch/img/play-icon.png" />
                   </Link>
-                </div>
-                <div className="sign">
-                  <img src="https://colorlib.com/preview/theme/coffee/img/signature.png" />
                 </div>
               </div>
             </div>
