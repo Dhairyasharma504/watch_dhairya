@@ -16,8 +16,8 @@ const Wrapper = styled.div`
   }
   .card {
     border-radius: 14px;
-    box-shadow: 2px 2px 13px 8px antiquewhite;
-    padding: 18px;
+    box-shadow: 0 0 -2px black;
+    padding: 24px;
   }
   .icon {
     color: royalblue;
