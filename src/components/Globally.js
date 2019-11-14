@@ -45,6 +45,8 @@ const Globally = () => (
                       GET DETAIL
                     </button>
                   </a>
+
+                  <img src="https://colorlib.com/preview/theme/coffee/img/signature.png" />
                 </p>
               </div>
             </section>

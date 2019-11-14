@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import styled from 'styled-components';
@@ -10,6 +11,7 @@ import Courses from '../components/Courses';
 import Globally from '../components/Globally';
 import Feature from '../components/Feature';
 import Images from '../components/Images';
+import Footer from '../components/Footer';
 
 const Wrapper = styled.div`
   .main {
@@ -76,6 +78,7 @@ export default class IndexPage extends React.Component {
         <Globally />
         <Feature />
         <Images />
+        <Footer />
       </Layout>
     );
   }

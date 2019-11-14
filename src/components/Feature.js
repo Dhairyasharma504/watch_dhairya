@@ -2,9 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  background-image: url(https://colorlib.com/preview/theme/medcare/img/background/bg_1.png);
-  padding: 2rem;
-
+  background-image: url(https://colorlib.com/preview/theme/watch/img/faq-bg.jpg);
   margin: -1rem;
   h2 {
     color: ${props => props.theme.lightShades} !important;
@@ -21,8 +19,8 @@ const Wrapper = styled.div`
     padding: 24px;
   }
   .icon {
-    color: royalblue;
-    margin-right: 3px;
+    margin-right: 7px;
+    font-size: 16px;
   }
 `;
 const Feature = () => (
@@ -42,7 +40,7 @@ const Feature = () => (
                 <div className="card">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                     <span className="icon">
-                      <i className="far fa-user" />
+                      <i className="far fa-user has-text-info" />
                     </span>
                     Expert Technicians
                   </h3>
@@ -50,13 +48,28 @@ const Feature = () => (
                     Usage of the Internet is becoming more common due to rapid
                     advancement of technology and power.
                   </p>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star-half-alt" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="far fa-star" />
+                  </span>
                 </div>
               </div>
               <div className="column">
                 <div className="card">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                     <span className="icon">
-                      <i className="fas fa-id-card" />
+                      <i className="fas fa-id-card has-text-info " />
                     </span>
                     Professional Service
                   </h3>
@@ -65,13 +78,28 @@ const Feature = () => (
                     Usage of the Internet is becoming more common due to rapid
                     advancement of technology and power.
                   </p>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star-half-alt" />
+                  </span>
                 </div>
               </div>
               <div className="column">
                 <div className="card">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                     <span className="icon">
-                      <i className="fas fa-phone-volume" />
+                      <i className="fas fa-phone-volume has-text-info" />
                     </span>
                     Great Support
                   </h3>
@@ -79,6 +107,21 @@ const Feature = () => (
                     Usage of the Internet is becoming more common due to rapid
                     advancement of technology and power.
                   </p>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="far fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="far fa-star" />
+                  </span>
                 </div>
               </div>
             </div>
@@ -88,7 +131,7 @@ const Feature = () => (
                 <div className="card">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                     <span className="icon">
-                      <i className="fas fa-cogs" />
+                      <i className="fas fa-cogs has-text-info" />
                     </span>
                     Technical Skills
                   </h3>
@@ -96,13 +139,28 @@ const Feature = () => (
                     Usage of the Internet is becoming more common due to rapid
                     advancement of technology and power.
                   </p>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="far fa-star" />
+                  </span>
                 </div>
               </div>
               <div className="column">
                 <div className="card">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                     <span className="icon">
-                      <i className="far fa-gem" />
+                      <i className="far fa-gem has-text-info" />
                     </span>
                     Highly Recomended
                   </h3>
@@ -110,13 +168,28 @@ const Feature = () => (
                     Usage of the Internet is becoming more common due to rapid
                     advancement of technology and power.
                   </p>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
                 </div>
               </div>
               <div className="column">
                 <div className="card">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                     <span className="icon">
-                      <i className="fab fa-rocketchat" />
+                      <i className="fab fa-rocketchat has-text-info" />
                     </span>
                     Positive Reviews
                   </h3>
@@ -124,6 +197,21 @@ const Feature = () => (
                     Usage of the Internet is becoming more common due to rapid
                     advancement of technology and power.
                   </p>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="fas fa-star-half-alt" />
+                  </span>
+                  <span className="icon has-text-warning">
+                    <i className="far fa-star" />
+                  </span>
                 </div>
               </div>
             </div>
