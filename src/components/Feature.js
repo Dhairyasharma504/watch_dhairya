@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background-image: url(https://colorlib.com/preview/theme/watch/img/faq-bg.jpg);
+  background-attachment: fixed;
   margin: -1rem;
   h2 {
     color: ${props => props.theme.lightShades} !important;
@@ -32,9 +33,9 @@ const Feature = () => (
             <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered  ">
               Some Features that Made us Unique
             </h3>
-            <p className="subtitle has-text-weight-light is-spaced  has-text-centered	">
+            <h2 className="subtitle has-text-weight-light is-spaced  has-text-centered	">
               Who are in extremely love with eco friendly system.
-            </p>
+            </h2>
             <div className="columns">
               <div className="column">
                 <div className="card">

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background-image: url(https://colorlib.com/preview/theme/medcare/img/background/bg_1.png);
-
+  background-attachment: fixed;
   h2 {
     color: ${props => props.theme.lightShades} !important;
   }
@@ -17,7 +17,6 @@ const Wrapper = styled.div`
   .icon {
     font-size: 22px;
     margin-right: 10px;
-    color: #235ee7;
   }
 `;
 const Courses = () => (
@@ -30,9 +29,9 @@ const Courses = () => (
               <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered  ">
                 Top Courses That are open for Students
               </h3>
-              <p className="subtitle has-text-weight-light is-spaced  has-text-centered	">
+              <h2 className="subtitle has-text-weight-light is-spaced  has-text-centered	">
                 Who are in extremely love with eco friendly system.
-              </p>
+              </h2>
             </section>
             <div className="columns">
               <div className="column">
@@ -40,7 +39,7 @@ const Courses = () => (
                   <div className="container">
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       <div className="icon">
-                        <i className="fas fa-rocket" />
+                        <i className="fas fa-rocket has-text-info" />
                       </div>
                       High Performance
                     </h3>
@@ -55,7 +54,7 @@ const Courses = () => (
                   <div className="container">
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       <div className="icon">
-                        <i className="fas fa-cog" />
+                        <i className="fas fa-cog has-text-info" />
                       </div>
                       High Performance
                     </h3>
@@ -75,7 +74,7 @@ const Courses = () => (
                   <div className="container">
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       <div className="icon">
-                        <i className="far fa-building" />
+                        <i className="far fa-building has-text-info" />
                       </div>
                       High Performance
                     </h3>
@@ -90,7 +89,7 @@ const Courses = () => (
                   <div className="container">
                     <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-left  ">
                       <div className="icon">
-                        <i className="fas fa-phone-volume" />
+                        <i className="fas fa-phone-volume has-text-info" />
                       </div>
                       High Performance
                     </h3>
