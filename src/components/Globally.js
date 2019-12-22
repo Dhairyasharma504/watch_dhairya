@@ -38,7 +38,7 @@ const Globally = () => (
                   aliqua. Ut enim ad minim.
                 </p>
                 <p className="control">
-                  <a href="#">
+                  <a href="Images">
                     <button
                       type="submit"
                       className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold ">
