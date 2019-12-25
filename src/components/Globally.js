@@ -26,7 +26,7 @@ const Globally = () => (
           <div className="cover">
             <section className="section">
               <div className="container">
-                <h3 className="title is-spaced is-size-3 has-text-weight-bold is-size-1-desktop">
+                <h3 className="title is-spaced is-size-3 has-text-weight-light is-size-1-desktop">
                   Globally Connected by Large Network
                 </h3>
                 <h2 className="subtitle is-spaced is-size-6 has-text-weight-semibold is-family-sans-serif	 ">

@@ -30,7 +30,7 @@ const Feature = () => (
       <body>
         <section className="section">
           <div className="container">
-            <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered  ">
+            <h3 className="title is-spaced is-size-2 has-text-centered has-text-weight-light ">
               Some Features that Made us Unique
             </h3>
             <h2 className="subtitle has-text-weight-light is-spaced  has-text-centered	">

@@ -43,7 +43,7 @@ const Vedio = () => (
                   <h2 className="subtitle is-spaced is-size-7 has-text-weight-semibold	">
                     BRAND NEW APP TO BLOW YOUR MIND
                   </h2>
-                  <h3 className="title is-spaced is-size-2 has-text-weight-bold ">
+                  <h3 className="title is-spaced is-size-2 has-text-weight-light">
                     We’ve made a life that will change you
                   </h3>
                   <h3 className="subtitle is-spaced is-size-6 has-text-weight-semibold is-family-sans-serif	 ">

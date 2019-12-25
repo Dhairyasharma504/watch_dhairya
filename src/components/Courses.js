@@ -26,7 +26,7 @@ const Courses = () => (
         <div className="hero-body">
           <div className="container">
             <section className="section">
-              <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered  ">
+              <h3 className="title is-spaced is-size-2 has-text-weight-light has-text-centered  ">
                 Top Courses That are open for Students
               </h3>
               <h2 className="subtitle has-text-weight-light is-spaced  has-text-centered	">

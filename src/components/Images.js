@@ -24,6 +24,9 @@ const Wrapper = styled.div`
     align-self: center;
     margin-right: 1rem;
   }
+  .button{
+    margin-left: 3rem;
+  }
 `;
 const Images = () => (
   <Wrapper>
@@ -44,7 +47,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image">
                 <img
-                  src=" https://colorlib.com/preview/theme/watch/img/u1.jpg"
+                  src="https://www.alternate.co.uk/p/o/9/Apple_Watch_Series_4__Smartwatch@@9awa1adu.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content">
@@ -69,7 +72,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image ">
                 <img
-                  src="https://colorlib.com/preview/theme/watch/img/u2.jpg"
+                  src="https://ae01.alicdn.com/kf/HTB19cJELVXXXXcDXpXXq6xXFXXXm/LEMFO-LF07-Bluetooth-Smart-Watch-Life-Waterproof-Fitness-Tracker-Smartwatch-for-Apple-Watch-Huawei-Android-IOS.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content">
@@ -94,7 +97,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image ">
                 <img
-                  src=" https://colorlib.com/preview/theme/watch/img/u3.jpg"
+                  src="https://www.did.ie/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/u/mu6d2ba.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content">
@@ -119,7 +122,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image">
                 <img
-                  src=" https://colorlib.com/preview/theme/watch/img/u4.jpg"
+                  src=" https://img.sunsky-online.com/upload/store/product_l/WA5875B.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content">

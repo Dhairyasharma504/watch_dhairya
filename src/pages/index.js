@@ -12,6 +12,8 @@ import Globally from '../components/Globally';
 import Feature from '../components/Feature';
 import Images from '../components/Images';
 import Footer from '../components/Footer';
+import Wallpapers from '../components/Wallpapers';
+import Wallpaper2 from '../components/Wallpaper2';
 
 const Wrapper = styled.div`
   .main {
@@ -74,9 +76,11 @@ export default class IndexPage extends React.Component {
           </div>
         </Wrapper>
         <Vedio />
+        <Wallpapers />
         <Courses />
         <Globally />
         <Feature />
+        <Wallpaper2 />
         <Images />
         <Footer />
       </Layout>
