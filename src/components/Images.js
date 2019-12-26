@@ -77,7 +77,7 @@ const Images = () => (
                 />
                 <div className="media-content">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-centered ">
-                    Watch Blue
+                    Watch Green
                   </h3>
                   <h2 className="title is-spaced is-size-6 has-text-weight-bold has-text-centered ">
                     ‎€ 399.00

@@ -22,14 +22,14 @@ const Section = styled.section`
       position: absolute;
       width: 100%;
       transition: 0.6s;
-      background-color: #14151499;
+      background-color: black;
     }
   }
   .navbar-item {
     padding: 0 8px 0;
     text-decoration: none;
-    display: inline-block;
     color: #fff;
+    text-align: center;
     font-weight: 500;
     font-size: 12px;
     text-transform: uppercase;

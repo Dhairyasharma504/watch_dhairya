@@ -28,14 +28,9 @@ const Wrapper = styled.div`
   }
   .ff {
     background-color: white;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(110, 123, 123, 0.1),
-        rgba(126, 144, 127, 0.01)
-      ),
-      url(https://media.indiaistore.com/themes/frontend/images/uploads/watch/great-accessiories.png);
+    background-image: url('https://media.indiaistore.com/themes/frontend/images/uploads/watch/great-accessiories.png');
     background-attachment: fixed;
-    height: 35rem;
+    height: 40rem;
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -46,7 +41,7 @@ const Contact = () => (
     <Seo title="Contact Us" />
     <Wrapper className="Wrapper">
       <Header />
-      <div className="columns ff">
+      <div className="columns ff is-paddingless is-marginless">
         <div className="column">
           <div className="container">
             <div className="columns is-centered">

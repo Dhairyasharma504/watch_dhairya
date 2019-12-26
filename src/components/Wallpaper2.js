@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 `;
 const Wallpaper2 = () => (
   <Wrapper>
-    <div className="main">
+    <div className="main is-hidden-touch">
       <div className="columns">
         <div className="column">
           <section className="section is-medium">

@@ -1,7 +1,7 @@
 module.exports = {
   DEBUG: process.env.NODE_ENV === 'development',
 
-  siteName: 'Kickoff GatsbyJs',
+  siteName: 'Wrist Watch GatsbyJs',
   author: 'Dhairya Sharma',
   description: 'A starting point using ReactJs, bundled with awesome GatsbyJs.',
   siteUrl: 'https://dhairya-watch.netlify.com/',
