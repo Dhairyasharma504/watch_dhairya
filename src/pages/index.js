@@ -21,7 +21,6 @@ const Wrapper = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: center;
   }
   .title {
     font-size: 80px;

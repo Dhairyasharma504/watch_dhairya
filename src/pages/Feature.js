@@ -49,21 +49,19 @@ const Feature = () => (
         <div className="column">
           <div className="columns">
             <div className="column">
-              <body>
-                <section className="section is-medium">
-                  <div className="container">
-                    <h3 className="title is-spaced is-size-2 has-text-centered  has-text-weight-light">
-                      Fitness & Health Stay Motivated. Stay healthy.
-                    </h3>
+              <section className="section is-medium">
+                <div className="container">
+                  <h3 className="title is-spaced is-size-2 has-text-weight-bold has-text-centered  has-text-weight-light">
+                    Fitness & Health Stay Motivated. Stay healthy.
+                  </h3>
 
-                    <p className="subtitle has-text-centered">
-                      Throuthout the day, Apple Watch measures Your workouts,
-                      tracks your activity and helps encourage healthy
-                      routines.All adding up to a better you.
-                    </p>
-                  </div>
-                </section>
-              </body>
+                  <p className="subtitle has-text-centered">
+                    Throuthout the day, Apple Watch measures Your workouts,
+                    tracks your activity and helps encourage healthy
+                    routines.All adding up to a better you.
+                  </p>
+                </div>
+              </section>
             </div>
             <div className="column ff" />
           </div>

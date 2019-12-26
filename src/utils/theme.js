@@ -116,8 +116,17 @@ border: 1px solid black !important;
     box-shadow: ${theme.boxShadow};
   }
   .has-text-warning {
-    color: ${theme.lightAccent} !important;
+    color: ${theme.lightAccent};
   }
+  padding: 0px;
+
+  .columns{
+    margin: 0 !important; 
+    padding: 0 !important; 
+
+
+  }
+
 `;
 
 export default GlobalStyle;
