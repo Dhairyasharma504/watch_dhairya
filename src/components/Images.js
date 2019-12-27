@@ -24,9 +24,7 @@ const Wrapper = styled.div`
     align-self: center;
     margin-right: 1rem;
   }
-  .button{
-    margin-left: 3rem;
-  }
+  
 `;
 const Images = () => (
   <Wrapper>
@@ -50,7 +48,7 @@ const Images = () => (
                   src="https://www.alternate.co.uk/p/o/9/Apple_Watch_Series_4__Smartwatch@@9awa1adu.jpg"
                   alt="Placeholder image"
                 />
-                <div className="media-content">
+                <div className="media-content has-text-centered">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-centered ">
                     Watch White
                   </h3>
@@ -75,7 +73,7 @@ const Images = () => (
                   src="https://ae01.alicdn.com/kf/HTB19cJELVXXXXcDXpXXq6xXFXXXm/LEMFO-LF07-Bluetooth-Smart-Watch-Life-Waterproof-Fitness-Tracker-Smartwatch-for-Apple-Watch-Huawei-Android-IOS.jpg"
                   alt="Placeholder image"
                 />
-                <div className="media-content">
+                <div className="media-content has-text-centered">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-centered ">
                     Watch Green
                   </h3>
@@ -100,7 +98,7 @@ const Images = () => (
                   src="https://www.did.ie/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/u/mu6d2ba.jpg"
                   alt="Placeholder image"
                 />
-                <div className="media-content">
+                <div className="media-content has-text-centered">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-centered ">
                     Watch Gray
                   </h3>
@@ -125,7 +123,7 @@ const Images = () => (
                   src=" https://img.sunsky-online.com/upload/store/product_l/WA5875B.jpg"
                   alt="Placeholder image"
                 />
-                <div className="media-content">
+                <div className="media-content has-text-centered">
                   <h3 className="title is-spaced is-size-5 has-text-weight-bold has-text-centered ">
                     Watch Black
                   </h3>

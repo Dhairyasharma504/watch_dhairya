@@ -5,7 +5,7 @@ module.exports = {
   author: 'Dhairya Sharma',
   description: 'A starting point using ReactJs, bundled with awesome GatsbyJs.',
   siteUrl: 'https://dhairya-watch.netlify.com/',
-  logo: '/images/logo.png',
+  logo: './images/logo.png',
 
   telephone: '+91-75082-76440',
   email: 'dhairyasharma2311.com',
