@@ -45,7 +45,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image">
                 <img
-                  src="https://www.alternate.co.uk/p/o/9/Apple_Watch_Series_4__Smartwatch@@9awa1adu.jpg"
+                  src="https://img.sunsky-online.com/upload/store/product_l/WA5875B.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content has-text-centered">
@@ -57,7 +57,8 @@ const Images = () => (
                   </h2>
                   <button
                     type="submit"
-                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold">
+                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold"
+                  >
                     PRE ORDER
                   </button>
                 </div>
@@ -70,7 +71,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image ">
                 <img
-                  src="https://ae01.alicdn.com/kf/HTB19cJELVXXXXcDXpXXq6xXFXXXm/LEMFO-LF07-Bluetooth-Smart-Watch-Life-Waterproof-Fitness-Tracker-Smartwatch-for-Apple-Watch-Huawei-Android-IOS.jpg"
+                  src="https://img.sunsky-online.com/upload/store/product_l/WA5875B.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content has-text-centered">
@@ -82,7 +83,8 @@ const Images = () => (
                   </h2>
                   <button
                     type="submit"
-                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold">
+                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold"
+                  >
                     PRE ORDER
                   </button>
                 </div>
@@ -95,7 +97,7 @@ const Images = () => (
             <div className="card-image">
               <div className="image ">
                 <img
-                  src="https://www.did.ie/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/u/mu6d2ba.jpg"
+                  src="https://img.sunsky-online.com/upload/store/product_l/WA5875B.jpg"
                   alt="Placeholder image"
                 />
                 <div className="media-content has-text-centered">
@@ -107,7 +109,8 @@ const Images = () => (
                   </h2>
                   <button
                     type="submit"
-                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold">
+                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold"
+                  >
                     PRE ORDER
                   </button>
                 </div>
@@ -132,7 +135,8 @@ const Images = () => (
                   </h2>
                   <button
                     type="submit"
-                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold has-text-centered">
+                    className="button is-secondary is-normal is-info is-rounded has-text-weight-semibold has-text-centered"
+                  >
                     PRE ORDER
                   </button>
                 </div>
