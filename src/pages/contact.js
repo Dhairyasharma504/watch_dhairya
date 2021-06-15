@@ -27,12 +27,10 @@ const Wrapper = styled.div`
     margin-top: 2rem;
   }
   .ff {
-    background-color: white;
-    background-image: url('https://media.indiaistore.com/themes/frontend/images/uploads/watch/great-accessiories.png');
-    background-attachment: fixed;
-    height: 40rem;
+    background-image: url(https://c1.wallpaperflare.com/preview/124/322/522/analog-watch-arm-girl-hand.jpg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    background-size: cover;
   }
 `;
 
@@ -77,7 +75,8 @@ const Contact = () => (
                     <a href="#">
                       <button
                         type="submit"
-                        className="button is-secondary is-medium">
+                        className="button is-secondary is-medium"
+                      >
                         Get in touch
                       </button>
                     </a>

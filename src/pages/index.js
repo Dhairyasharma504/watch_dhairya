@@ -65,7 +65,8 @@ export default class IndexPage extends React.Component {
                   <a href="#">
                     <button
                       type="submit"
-                      className="button is-primary is-normal is-info is-rounded ">
+                      className="button is-primary is-normal is-info is-rounded "
+                    >
                       BUY NOW
                     </button>
                   </a>
@@ -75,7 +76,7 @@ export default class IndexPage extends React.Component {
           </div>
         </Wrapper>
         <Vedio />
-        <Wallpapers />
+        {/* <Wallpapers /> */}
         <Courses />
         <Globally />
         <Feature />
